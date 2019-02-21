@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-kahoot",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "await-to-js": "^2.1.1",
+    "bcrypt": "^3.0.4",
+    "bcrypt-promise": "^2.0.0",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^6.2.0",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jsonwebtoken": "^8.5.0",
+    "mongoose": "^5.4.14",
+    "mongoose-validator": "^2.1.0",
+    "morgan": "~1.9.0",
+    "parse-error": "^0.2.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "pug": "^2.0.3",
+    "validator": "^10.11.0"
+  }
+}
